@@ -1,0 +1,20 @@
+{
+    "name": "alexsuleymanov/api",
+    "description": "Выполнение простых curl GET и POST запросов",
+    "type": "library",
+    "require": {
+        "php": "^5.4|^7.0|^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ASweb\\Api\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Suleymanov",
+            "email": "alex.suleymanov@gmail.com"
+        }
+    ]
+}
